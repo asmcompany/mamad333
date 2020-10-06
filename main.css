@@ -166,28 +166,69 @@
 
 
 
+
+
+
+@font-face {
+  font-family: 'Elham';
+  src: url('font/Homa.eot') format('eot'),  
+       url('font/Homa.woff') format('woff'),
+       url('font/Homa.ttf') format('truetype');
+  font-style:normal;
+  font-weight:normal;
+}
+
+
 body{
-    background: #131A27;
+    background: #000000;
 }
 
 
-
-/* matn moteharek */
-.videotext{
-    
-    letter-spacing: 1px;
-    font-weight: bold;
-    background: url('martynov.jpg');
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    animation: text 7.5s linear infinite;
+/* nav */
+.navbar-custom {
+  background-color: rgba(255, 97, 97, 0.027);
+}
+/* change the brand and text color */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+  color: #f8002ddc;
+}
+/* change the link color */
+.navbar-custom .navbar-nav .nav-link {
+  color: rgba(255, 0, 0, 0.5);
+}
+/* change the color of active or hovered links */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+  color: #f8002f;
 }
 
-@keyframes text {
-    from {background-position: 0% 50%;}
-    to {background-position: 100% 50%;}
+
+/* ax_head */
+.ax_head{
+  background: url('img/jadid33.jpg') no-repeat center center;
+  background-size: cover;
+  
+  width: 100vw;
+  height: 100vh;
+  
+  
 }
+
+.tx_head{
+ 
+  position: absolute;
+  top: 50%;
+  
+  text-align: right;
+  font-size: 3rem;
+  font-weight: bolder;
+  color: #f8002f;
+  font-family:Elham;
+  
+}
+
+
 
 
 
@@ -196,7 +237,7 @@ body{
 .conti{
     height: 400px;
     width: 300px;
-    background: #364A5E;
+    background: #000000;
     padding: 20px;
     letter-spacing: 1px;
     line-height: 24px;
@@ -213,17 +254,19 @@ body{
     height: 100%;
     transform: skew(2deg,2deg);
     z-index: -1;
-    background:  #20C5B6;
+    background:  #ff0000;
 }
 
 
 
 
+
+
 /* ax sabet */
-.tasvir{
-    background-image: url("ave.jpg");
+/* .tasvir{
+    background-image: url("img/ave.jpg");
     width: auto;
-    min-height: 500px;
+    height: 100vh;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -272,7 +315,16 @@ span:nth-child(3){
 }
 span:nth-child(4){
   animation-delay: 1.2s;
-}
+} */
+
+
+
+
+
+
+/* header ax */
+
+
 
 
 
@@ -306,6 +358,9 @@ span:nth-child(4){
     position: absolute;
     transform: translateZ(40px);
 } */
+
+
+
 
 
 
@@ -350,11 +405,16 @@ i{
 
 
 
+
+
+
+
+
 /* ax 3tayi */
-.tarkib{
+/* .tarkib{
   position: relative;
   width: auto;
-  height: 500px;
+  height: 50vh;
   background: #131A27;
 }
 
@@ -368,19 +428,19 @@ i{
 }
 
 .tarkib .ax.ax1{
-  background: url(anunziata.jpg);
+  background: url(img/anunziata.jpg);
   background-size: cover;
   clip-path: polygon(0 0, 55% 0, 20% 100%, 0 100%);
 }
 
 .tarkib .ax.ax2{
-  background: url(martynov.jpg);
+  background: url(img/martynov.jpg);
   background-size: cover;
   clip-path: polygon(55% 0, 100% 0, 45% 100%, 20% 100%);
 }
 
 .tarkib .ax.ax3{
-  background: url(white.jpg);
+  background: url(img/white.jpg);
   background-size: cover;
   clip-path: polygon(100% 0, 100% 0, 100% 100%, 45% 100%);
 }
@@ -407,4 +467,4 @@ i{
 .tarkib .ax:hover .neveshte{
   bottom: 0;
   opacity: 1;
-}
+} */
