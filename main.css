@@ -242,7 +242,7 @@ body{
 .ax_head{
   background: url('img/New/chevanon.jpg') no-repeat center center;
   background-size: cover;
-  
+  align-items: center;
   width: 100vw;
   height: 100vh;
   
@@ -250,17 +250,27 @@ body{
 }
 
 .tx_head{
-  height: 20vh;
+  text-align: center;
   position: absolute;
   top: 50%;
   backdrop-filter: blur(20px);
-  text-align: center;
-  font-size: 8vw;
   
+  font-size: 8vw;
+  letter-spacing: .5rem;
+ 
 }
 
 .neon-text{
-  color: #ffffff;
+
+  color: #fff;
+  text-shadow: 0 0 10px #fff,
+  0 0 20px #fff,
+  0 0 40px #fff,
+  0 0 80px #fff,
+  0 0 120px #fff,
+  0 0 160px #fff;
+
+  /* color: #ffffff;
   text-shadow: 
   .1vw 0vw .25vw #ffffff, .2vw 0vw .25vw #ffffff, .4vw 0vw .25vw #ffffff,
   
@@ -272,8 +282,7 @@ body{
   .1vw 0vw 1vw #e50b0b, .2vw 0vw 1vw #e50b0b, .4vw 0vw 5vw #e50b0b,
   .1vw 0vw 5vw #e50b0b, .2vw 0vw 20vw #e50b0b, .4vw 0vw 10vw #e50b0b,
   .1vw 0vw 10vw #e50b0b, .2vw 0vw 30vw #e50b0b, .4vw 0vw 10vw #e50b0b
-
-  ;
+  ; */
 
 }
 
